@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Noto+Sans&display=swap');
+#home-div{
+    display:flex;
+    color:white;
+    font-size:140px;
+    font-family: 'ABeeZee', sans-serif;
+    height:90vh;
+    align-items:center;
+    margin-left:100px;
+}
