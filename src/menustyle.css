@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Noto+Sans&display=swap');
+#item1,#item2,#item3,#item4,#item5{
+    display:flex;
+    width:300px;
+    flex-direction: column;
+    height:350px;
+    border-radius: 5px;
+   
+    padding:20px;
+}
+#menu-div{
+   margin-top:100px;
+}
+.image{
+    width:300px;
+    height:300px;
+    border-radius: 15px;
+    background:none;
+    border:none;
+}
+#cheems-container{
+    display:flex;
+    flex-wrap:wrap;
+    column-gap:200px;
+    row-gap:200px;
+    align-items: center;
+    justify-content: center;
+}
+h4{
+    color:white;
+    text-align: center;
+    font-family: 'ABeeZee', sans-serif;
+}

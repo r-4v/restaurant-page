@@ -45,7 +45,7 @@ contentDiv.setAttribute("id", "content-div");
 blurDiv.setAttribute("id", "blur-div");
 headerTextDiv.setAttribute("id", "header-text");
 buttonsHolderDiv.setAttribute("id", "buttons-div");
-headerTextDiv.innerText = "re_straw_rant";
+headerTextDiv.innerText = "cheem_straw_rant";
 homeButton.setAttribute("id", "home");
 menuButton.setAttribute("id", "menu");
 contactButton.setAttribute("id", "contact");
@@ -62,6 +62,7 @@ buttonsHolderDiv.appendChild(homeButton);
 buttonsHolderDiv.appendChild(menuButton);
 buttonsHolderDiv.appendChild(contactButton);
 contentDiv.appendChild(infoDiv);
+infoDiv.appendChild(homeDiv);
 
 //contentDiv.appendChild(testDiv);
 //contentDiv.appendChild(test2Div);
